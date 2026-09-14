@@ -1,0 +1,328 @@
+{
+	"destination": "detailScreen",
+	"windowMinWidth": 860,
+	"windowMinHeight": 660,
+	"width": 860,
+	"height": 660,
+	"menuBar": "Menu Bar #1",
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "US Letter",
+		"paperWidth": "612pt",
+		"paperHeight": "792pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"Tab Control": {
+					"type": "tab",
+					"top": 20,
+					"left": 20,
+					"width": 820,
+					"height": 620,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "Tab Control",
+					"dataSourceTypeHint": "arrayText",
+					"labels": [
+						"Infos",
+						"Demo"
+					],
+					"action": "GotoPage",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"WParea1": {
+					"type": "write",
+					"top": 60,
+					"left": 40,
+					"width": 780,
+					"height": 560,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "vInfos",
+					"focusable": false,
+					"hideFocusRing": true,
+					"scrollbarVertical": "automatic",
+					"scrollbarHorizontal": "automatic",
+					"showSelection": true,
+					"showHorizontalRuler": false,
+					"showVerticalRuler": false,
+					"layoutMode": "embedded",
+					"method": "ObjectMethods/WParea1.4dm",
+					"events": [
+						"onLoad",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onSelectionChange",
+						"onAfterEdit"
+					]
+				},
+				"WPwidget1": {
+					"type": "subform",
+					"top": 0,
+					"left": 906,
+					"width": 260,
+					"height": 680,
+					"sizingX": "move",
+					"sizingY": "grow",
+					"detailForm": "WP_Palette",
+					"focusable": false,
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable"
+				},
+				"Button1": {
+					"type": "button",
+					"top": 700,
+					"left": 906,
+					"width": 103,
+					"height": 21,
+					"sizingX": "move",
+					"sizingY": "move",
+					"text": "Save Infos",
+					"fontStyle": "italic",
+					"focusable": false,
+					"method": "ObjectMethods/Button1.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"WParea2": {
+					"type": "write",
+					"top": 60,
+					"left": 40,
+					"width": 520,
+					"height": 560,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "vDoc",
+					"focusable": false,
+					"hideFocusRing": true,
+					"scrollbarVertical": "automatic",
+					"scrollbarHorizontal": "automatic",
+					"showSelection": true,
+					"showVerticalRuler": false,
+					"layoutMode": "embedded",
+					"method": "ObjectMethods/WParea2.4dm",
+					"events": [
+						"onLoad",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onSelectionChange",
+						"onAfterEdit"
+					]
+				},
+				"WPwidget2": {
+					"type": "subform",
+					"top": 28,
+					"left": 889,
+					"width": 260,
+					"height": 612,
+					"sizingX": "move",
+					"sizingY": "grow",
+					"detailForm": "WP_Palette",
+					"focusable": false,
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable"
+				},
+				"Button2": {
+					"type": "button",
+					"top": 679,
+					"left": 457,
+					"width": 103,
+					"height": 21,
+					"sizingX": "move",
+					"shortcutKey": "s",
+					"shortcutAccel": true,
+					"shortcutAlt": true,
+					"text": "save Doc.",
+					"fontStyle": "italic",
+					"focusable": false,
+					"method": "ObjectMethods/Button2.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button": {
+					"type": "button",
+					"top": 432,
+					"left": 590,
+					"width": 220,
+					"height": 20,
+					"sizingX": "move",
+					"sizingY": "move",
+					"text": "Create bookmark",
+					"focusable": false,
+					"method": "ObjectMethods/Button.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button3": {
+					"type": "button",
+					"top": 110,
+					"left": 590,
+					"width": 220,
+					"height": 20,
+					"sizingX": "move",
+					"text": "Get bookmarks",
+					"focusable": false,
+					"method": "ObjectMethods/Button3.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button4": {
+					"type": "button",
+					"top": 600,
+					"left": 590,
+					"width": 220,
+					"height": 20,
+					"sizingX": "move",
+					"sizingY": "move",
+					"text": "Delete bookmark",
+					"focusable": false,
+					"method": "ObjectMethods/Button4.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"List Box": {
+					"type": "listbox",
+					"top": 210,
+					"left": 590,
+					"width": 220,
+					"height": 139,
+					"sizingX": "move",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "List Box",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"headerHeight": "20px",
+					"scrollbarHorizontal": "automatic",
+					"method": "ObjectMethods/List Box.4dm",
+					"events": [
+						"onClick",
+						"onDataChange",
+						"onSelectionChange",
+						"onHeaderClick"
+					],
+					"columns": [
+						{
+							"name": "Bookmarks",
+							"dataSource": "_Bookmarks",
+							"width": 205,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#0000CD",
+							"fill": "automatic",
+							"alternateFill": "automatic",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontWeight": "bold",
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header1",
+								"text": "Bookmarks",
+								"dataSource": "Header1",
+								"stroke": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							},
+							"footer": {
+								"name": "Footer1",
+								"stroke": "automatic",
+								"fill": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							}
+						}
+					]
+				},
+				"Text": {
+					"type": "text",
+					"top": 60,
+					"left": 590,
+					"width": 220,
+					"height": 57,
+					"sizingX": "move",
+					"fontWeight": "bold",
+					"text": "#1: Click the button to get the list of bookmarks for the document."
+				},
+				"Text1": {
+					"type": "text",
+					"top": 150,
+					"left": 590,
+					"width": 220,
+					"height": 60,
+					"sizingX": "move",
+					"fontWeight": "bold",
+					"text": "#2: Select any bookmark in the list to highlight the corresponding text."
+				},
+				"Text2": {
+					"type": "text",
+					"top": 371,
+					"left": 590,
+					"width": 220,
+					"height": 57,
+					"sizingX": "move",
+					"sizingY": "move",
+					"fontWeight": "bold",
+					"text": "#3: Select some text in the document and create your own bookmark."
+				},
+				"Text3": {
+					"type": "text",
+					"top": 488,
+					"left": 590,
+					"width": 220,
+					"height": 97,
+					"sizingX": "move",
+					"sizingY": "move",
+					"fontWeight": "bold",
+					"text": "#4: Select a bookmark in the list above and delete it!\rNote: This will delete the bookmark, not the text nor the selection!"
+				}
+			}
+		}
+	]
+}
