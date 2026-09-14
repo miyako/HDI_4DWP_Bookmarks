@@ -1,8 +1,9 @@
-C_OBJECT:C1216($range)
-C_TEXT:C284($bookmarkName)
+//%attributes = {"invisible":true}
+var $range : Object
+var $bookmarkName : Text
 
 $range:=WP Selection range:C1340(vDoc)
-$bookmarkName:=Request:C163("Bookmark name?")
+$bookmarkName:=Request:C163(Localized string("PromptBookmarkName"))
 If (ok=1)
 	// create bookmark
 	WP NEW BOOKMARK:C1415($range; $bookmarkName)

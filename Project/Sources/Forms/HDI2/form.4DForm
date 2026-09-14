@@ -47,8 +47,8 @@
 					"dataSource": "Tab Control",
 					"dataSourceTypeHint": "arrayText",
 					"labels": [
-						"Infos",
-						"Demo"
+						":xliff:HDI2_TabInfos",
+						":xliff:HDI2_TabDemo"
 					],
 					"action": "GotoPage",
 					"events": [
@@ -106,12 +106,12 @@
 					"top": 700,
 					"left": 906,
 					"width": 103,
-					"height": 21,
 					"sizingX": "move",
 					"sizingY": "move",
-					"text": "Save Infos",
+					"text": ":xliff:HDI2_SaveInfos",
 					"fontStyle": "italic",
 					"focusable": false,
+					"class": "default",
 					"method": "ObjectMethods/Button1.4dm",
 					"events": [
 						"onClick"
@@ -167,14 +167,14 @@
 					"top": 679,
 					"left": 457,
 					"width": 103,
-					"height": 21,
 					"sizingX": "move",
 					"shortcutKey": "s",
 					"shortcutAccel": true,
 					"shortcutAlt": true,
-					"text": "save Doc.",
+					"text": ":xliff:HDI2_SaveDoc",
 					"fontStyle": "italic",
 					"focusable": false,
+					"class": "default",
 					"method": "ObjectMethods/Button2.4dm",
 					"events": [
 						"onClick"
@@ -185,11 +185,11 @@
 					"top": 432,
 					"left": 590,
 					"width": 220,
-					"height": 20,
 					"sizingX": "move",
 					"sizingY": "move",
-					"text": "Create bookmark",
+					"text": ":xliff:HDI2_CreateBookmark",
 					"focusable": false,
+					"class": "default",
 					"method": "ObjectMethods/Button.4dm",
 					"events": [
 						"onClick"
@@ -200,10 +200,10 @@
 					"top": 110,
 					"left": 590,
 					"width": 220,
-					"height": 20,
 					"sizingX": "move",
-					"text": "Get bookmarks",
+					"text": ":xliff:HDI2_GetBookmarks",
 					"focusable": false,
+					"class": "default",
 					"method": "ObjectMethods/Button3.4dm",
 					"events": [
 						"onClick"
@@ -214,11 +214,11 @@
 					"top": 600,
 					"left": 590,
 					"width": 220,
-					"height": 20,
 					"sizingX": "move",
 					"sizingY": "move",
-					"text": "Delete bookmark",
+					"text": ":xliff:HDI2_DeleteBookmark",
 					"focusable": false,
+					"class": "default",
 					"method": "ObjectMethods/Button4.4dm",
 					"events": [
 						"onClick"
@@ -238,6 +238,9 @@
 					"rowHeightAutoMax": "20px",
 					"headerHeight": "20px",
 					"scrollbarHorizontal": "automatic",
+					"class": "hdi-bookmarks-list",
+					"fill": "automatic",
+					"alternateFill": "automaticAlternate",
 					"method": "ObjectMethods/List Box.4dm",
 					"events": [
 						"onClick",
@@ -252,30 +255,30 @@
 							"width": 205,
 							"minWidth": 10,
 							"maxWidth": 32000,
-							"stroke": "#0000CD",
-							"fill": "automatic",
-							"alternateFill": "automatic",
 							"textAlign": "automatic",
 							"verticalAlign": "automatic",
 							"fontWeight": "bold",
+							"truncateMode": "none",
 							"events": [
 								"onClick",
 								"onDataChange"
 							],
 							"header": {
 								"name": "Header1",
-								"text": "Bookmarks",
+								"text": ":xliff:HDI2_HeaderBookmarks",
 								"dataSource": "Header1",
 								"stroke": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
 							},
 							"footer": {
 								"name": "Footer1",
 								"stroke": "automatic",
 								"fill": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
 							}
 						}
 					]
@@ -287,8 +290,9 @@
 					"width": 220,
 					"height": 57,
 					"sizingX": "move",
+					"stroke": "automatic",
 					"fontWeight": "bold",
-					"text": "#1: Click the button to get the list of bookmarks for the document."
+					"text": ":xliff:HDI2_Step1"
 				},
 				"Text1": {
 					"type": "text",
@@ -297,8 +301,9 @@
 					"width": 220,
 					"height": 60,
 					"sizingX": "move",
+					"stroke": "automatic",
 					"fontWeight": "bold",
-					"text": "#2: Select any bookmark in the list to highlight the corresponding text."
+					"text": ":xliff:HDI2_Step2"
 				},
 				"Text2": {
 					"type": "text",
@@ -308,8 +313,9 @@
 					"height": 57,
 					"sizingX": "move",
 					"sizingY": "move",
+					"stroke": "automatic",
 					"fontWeight": "bold",
-					"text": "#3: Select some text in the document and create your own bookmark."
+					"text": ":xliff:HDI2_Step3"
 				},
 				"Text3": {
 					"type": "text",
@@ -319,8 +325,9 @@
 					"height": 97,
 					"sizingX": "move",
 					"sizingY": "move",
+					"stroke": "automatic",
 					"fontWeight": "bold",
-					"text": "#4: Select a bookmark in the list above and delete it!\rNote: This will delete the bookmark, not the text nor the selection!"
+					"text": ":xliff:HDI2_Step4"
 				}
 			}
 		}

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="Project/Sources/Forms/HDI/form.4DForm" source-language="en" target-language="en">
+    <body>
+      <trans-unit id="HDI_WarningDesignMode" resname="HDI_WarningDesignMode">
+        <source>Do not attempt to open this HDI in Design mode using this version; if you do so, forms and/or methods could be altered because of missing functionality.</source>
+        <target>Do not attempt to open this HDI in Design mode using this version; if you do so, forms and/or methods could be altered because of missing functionality.</target>
+      </trans-unit>
+      <trans-unit id="HDI_InfoTitle" resname="HDI_InfoTitle">
+        <source>How Do I...</source>
+        <target>How Do I...</target>
+      </trans-unit>
+      <trans-unit id="HDI_InfoSubtitle" resname="HDI_InfoSubtitle">
+        <source>… use bookmarks in 4D Write Pro documents?</source>
+        <target>… use bookmarks in 4D Write Pro documents?</target>
+      </trans-unit>
+      <trans-unit id="HDI_VersionTooOld" resname="HDI_VersionTooOld">
+        <source>Sorry, this “How do I” (HDI) example must be used witha newer version of 4D(v16 and above).</source>
+        <target>Sorry, this “How do I” (HDI) example must be used witha newer version of 4D(v16 and above).</target>
+      </trans-unit>
+      <trans-unit id="HDI_VersionLabel" resname="HDI_VersionLabel">
+        <source>4D v16 and above…</source>
+        <target>4D v16 and above…</target>
+      </trans-unit>
+      <trans-unit id="HDI_WriteLicenseRequired" resname="HDI_WriteLicenseRequired">
+        <source>4D Write license is required for this demo</source>
+        <target>4D Write license is required for this demo</target>
+      </trans-unit>
+      <trans-unit id="BtnDemoLabel" resname="BtnDemoLabel">
+        <source>Demo</source>
+        <target>Demo</target>
+      </trans-unit>
+      <trans-unit id="BtnClose" resname="BtnClose">
+        <source>Close</source>
+        <target>Close</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

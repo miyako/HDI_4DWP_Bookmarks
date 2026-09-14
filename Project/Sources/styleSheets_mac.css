@@ -9,3 +9,26 @@
 	font-weight: bold;
 }
 
+/* macOS Tahoe Liquid Glass vs. classic macOS button heights.
+   Defined on both the class-only and compound selectors since the
+   compound selector is not always matched reliably at runtime. */
+@media (form-theme: liquid-glass) {
+	.default {
+		height: 27px;
+	}
+
+	button.default {
+		height: 27px;
+	}
+}
+
+@media (form-theme: mac-classic) {
+	.default {
+		height: 23px;
+	}
+
+	button.default {
+		height: 23px;
+	}
+}
+

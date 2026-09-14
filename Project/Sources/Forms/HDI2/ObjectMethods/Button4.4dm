@@ -1,3 +1,4 @@
+//%attributes = {"invisible":true}
 If (_Bookmarks#0)
 	// delete bookmark
 	WP DELETE BOOKMARK:C1419(vDoc; _Bookmarks{_Bookmarks})

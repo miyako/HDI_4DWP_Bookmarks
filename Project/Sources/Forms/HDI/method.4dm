@@ -1,20 +1,21 @@
-C_TEXT:C284($vers; $minVers)
-C_BOOLEAN:C305($license)
+//%attributes = {"invisible":true}
+var $vers; $minVers : Text
+var $license : Boolean
 
 
 Case of 
 		
 	: (Form event code:C388=On Load:K2:1)
 		
-		$minVers:="1600"
+		$minVers:=Form.minimumVersion
 		$vers:=Application version:C493
 		$license:=Is license available:C714(4D Write license:K44:2)
 		
 		If (($vers<$minVers) | ($license=False:C215))  //1630 means 16R3   1601 means 16.1
 			
 			// The demo cannot be run: wrong version or missing license
-			<>Quit:=True:C214
-			OBJECT SET TITLE:C194(*; "BtnDemo"; "Quit 4D")
+			Form.quit:=True:C214
+			OBJECT SET TITLE:C194(*; "BtnDemo"; Localized string("BtnClose"))
 			
 			If ($vers<$minVers)
 				OBJECT SET VISIBLE:C603(*; "TxtSorry@"; True:C214)
@@ -27,7 +28,7 @@ Case of
 			
 			
 		Else 
-			<>Quit:=False:C215
+			Form.quit:=False:C215
 			
 		End if 
 		
