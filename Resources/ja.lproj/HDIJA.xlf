@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="Project/Sources/Forms/HDI/form.4DForm" source-language="en" target-language="ja">
+    <body>
+      <trans-unit id="HDI_WarningDesignMode" resname="HDI_WarningDesignMode">
+        <source>Do not attempt to open this HDI in Design mode using this version; if you do so, forms and/or methods could be altered because of missing functionality.</source>
+        <target>このバージョンでこの HDI をデザインモードで開かないでください。開くと、機能不足のためフォームやメソッドが変更される可能性があります。</target>
+      </trans-unit>
+      <trans-unit id="HDI_InfoTitle" resname="HDI_InfoTitle">
+        <source>How Do I...</source>
+        <target>使い方...</target>
+      </trans-unit>
+      <trans-unit id="HDI_InfoSubtitle" resname="HDI_InfoSubtitle">
+        <source>… use bookmarks in 4D Write Pro documents?</source>
+        <target>… 4D Write Pro ドキュメントでブックマークを使用するには?</target>
+      </trans-unit>
+      <trans-unit id="HDI_VersionTooOld" resname="HDI_VersionTooOld">
+        <source>Sorry, this “How do I” (HDI) example must be used witha newer version of 4D(v16 and above).</source>
+        <target>申し訳ございませんが、この「How do I」(HDI)サンプルは4Dの新しいバージョン(v16以降)でご使用ください。</target>
+      </trans-unit>
+      <trans-unit id="HDI_VersionLabel" resname="HDI_VersionLabel">
+        <source>4D v16 and above…</source>
+        <target>4D v16 以降…</target>
+      </trans-unit>
+      <trans-unit id="HDI_WriteLicenseRequired" resname="HDI_WriteLicenseRequired">
+        <source>4D Write license is required for this demo</source>
+        <target>このデモには4D Writeライセンスが必要です</target>
+      </trans-unit>
+      <trans-unit id="BtnDemoLabel" resname="BtnDemoLabel">
+        <source>Demo</source>
+        <target>デモ</target>
+      </trans-unit>
+      <trans-unit id="BtnClose" resname="BtnClose">
+        <source>Close</source>
+        <target>閉じる</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

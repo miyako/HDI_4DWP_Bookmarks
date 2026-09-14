@@ -1,2 +1,2 @@
 //%attributes = {"invisible":true}
-C_BOOLEAN:C305(<>Quit)
+  // Form.quit (Form-scoped state) replaces the former <>Quit interprocess variable

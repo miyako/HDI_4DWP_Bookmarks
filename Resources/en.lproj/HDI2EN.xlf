@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="Project/Sources/Forms/HDI2/form.4DForm" source-language="en" target-language="en">
+    <body>
+      <trans-unit id="HDI2_TabInfos" resname="HDI2_TabInfos">
+        <source>Infos</source>
+        <target>Infos</target>
+      </trans-unit>
+      <trans-unit id="HDI2_TabDemo" resname="HDI2_TabDemo">
+        <source>Demo</source>
+        <target>Demo</target>
+      </trans-unit>
+      <trans-unit id="HDI2_SaveInfos" resname="HDI2_SaveInfos">
+        <source>Save Infos</source>
+        <target>Save Infos</target>
+      </trans-unit>
+      <trans-unit id="HDI2_SaveDoc" resname="HDI2_SaveDoc">
+        <source>save Doc.</source>
+        <target>save Doc.</target>
+      </trans-unit>
+      <trans-unit id="HDI2_CreateBookmark" resname="HDI2_CreateBookmark">
+        <source>Create bookmark</source>
+        <target>Create bookmark</target>
+      </trans-unit>
+      <trans-unit id="HDI2_GetBookmarks" resname="HDI2_GetBookmarks">
+        <source>Get bookmarks</source>
+        <target>Get bookmarks</target>
+      </trans-unit>
+      <trans-unit id="HDI2_DeleteBookmark" resname="HDI2_DeleteBookmark">
+        <source>Delete bookmark</source>
+        <target>Delete bookmark</target>
+      </trans-unit>
+      <trans-unit id="HDI2_HeaderBookmarks" resname="HDI2_HeaderBookmarks">
+        <source>Bookmarks</source>
+        <target>Bookmarks</target>
+      </trans-unit>
+      <trans-unit id="HDI2_Step1" resname="HDI2_Step1">
+        <source>#1: Click the button to get the list of bookmarks for the document.</source>
+        <target>#1: Click the button to get the list of bookmarks for the document.</target>
+      </trans-unit>
+      <trans-unit id="HDI2_Step2" resname="HDI2_Step2">
+        <source>#2: Select any bookmark in the list to highlight the corresponding text.</source>
+        <target>#2: Select any bookmark in the list to highlight the corresponding text.</target>
+      </trans-unit>
+      <trans-unit id="HDI2_Step3" resname="HDI2_Step3">
+        <source>#3: Select some text in the document and create your own bookmark.</source>
+        <target>#3: Select some text in the document and create your own bookmark.</target>
+      </trans-unit>
+      <trans-unit id="HDI2_Step4" resname="HDI2_Step4">
+        <source>#4: Select a bookmark in the list above and delete it!Note: This will delete the bookmark, not the text nor the selection!</source>
+        <target>#4: Select a bookmark in the list above and delete it!Note: This will delete the bookmark, not the text nor the selection!</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

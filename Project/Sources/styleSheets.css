@@ -1,0 +1,29 @@
+/* Cross-platform dark mode support */
+
+@media (prefers-color-scheme: light) {
+	.hdi-warning {
+		stroke: #FF4D00;
+	}
+
+	.hdi-error {
+		stroke: #EE0000;
+	}
+
+	.hdi-bookmarks-list {
+		stroke: #0000CD;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	.hdi-warning {
+		stroke: #FF8A50;
+	}
+
+	.hdi-error {
+		stroke: #FF6B6B;
+	}
+
+	.hdi-bookmarks-list {
+		stroke: #6C9FFF;
+	}
+}
